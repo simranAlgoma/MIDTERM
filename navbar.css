@@ -1,0 +1,75 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+
+/* Navbar Left */
+.left-section {
+    display: flex;
+    gap: 20px;
+    text-align: right;
+}
+
+.left-section a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.left-section a:hover {
+    color: #007bff;
+}
+
+/* Navbar Right */
+.right-section {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Button Styles */
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn-secondary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Dark Mode and Light Mode */
+[data-theme="dark"] {
+    background-color: #121212;
+    color: white;
+}
+
+[data-theme="light"] {
+    background-color: #ffffff;
+    color: black;
+}

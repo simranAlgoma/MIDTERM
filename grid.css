@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 20px;
+}
+
+.grid-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.col-left, .col-right {
+    padding: 10px;
+}
+
+.col-left {
+    width: 33.33%; 
+}
+
+.col-right {
+    width: 66.66%; 
+}
+
+
+.input-field {
+    width: 100%;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.result-screen {
+    background-color: #332703;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
